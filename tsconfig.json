@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "esnext",
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "baseUrl": "src",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "strict": true,
+    "target": "es6",
+    "lib": ["es2019", "DOM", "DOM.Iterable"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "declarationDir": "./dist/",
+    "declaration": true,
+    "types": ["emscripten"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build", "dist"]
+}
